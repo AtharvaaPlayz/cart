@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CART Blog</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #0d0d0d;
+            color: #d4d4d4;
+            text-align: center;
+        }
+
+        header {
+            background-color: #1f1f1f;
+            padding: 20px;
+        }
+
+        header h1 {
+            font-family: 'Orbitron', sans-serif;
+            color: #00ffcc;
+            margin: 0;
+        }
+
+        .blog-container {
+            max-width: 1200px;
+            margin: 50px auto;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .blog-card {
+            background-color: #1f1f1f;
+            border: 2px solid #00ffcc;
+            border-radius: 10px;
+            box-shadow: 0 0 15px #00ffcc;
+            width: 300px;
+            padding: 20px;
+            text-align: left;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .blog-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 25px #00ffcc;
+        }
+
+        .blog-card h2 {
+            color: #00ffcc;
+            margin-top: 0;
+        }
+
+        .blog-card p {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+
+        nav {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #00ffcc;
+            margin-right: 15px;
+            font-weight: bold;
+            transition: opacity 0.3s ease, transform 0.3s ease;
+        }
+
+        nav a:hover {
+            opacity: 1;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CART Blog</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+    </nav>
+
+    <div class="blog-container">
+        <div class="blog-card">
+            <h2>Welcome to the CART Blog</h2>
+            <p>Stay updated with the latest discoveries and insights from the Chill Alien Research Team.</p>
+        </div>
+
+        <div class="blog-card">
+            <h2>Comming Soon!</h2>
+            <p></p>
+        </div>
+
+        <!-- Add your blog posts here manually -->
+    </div>
+</body>
+</html>
